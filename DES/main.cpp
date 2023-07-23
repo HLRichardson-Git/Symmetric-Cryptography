@@ -3,7 +3,6 @@
     Data: 7/23/2023
 
     For the purpose of education
-
 */
 
 #include <iostream>

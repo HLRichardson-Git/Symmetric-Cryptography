@@ -1,6 +1,6 @@
 /*
     By: Hunter Richardson
-    Data: 7/23/2023
+    Date: 7/23/2023
 
     For the purpose of education
 */
@@ -10,12 +10,12 @@
 #include <string>
 #include <bits/stdc++.h>
 
-#include "KeySchedule.h";
-#include "DES.h";
+#include "KeySchedule.h"
+#include "DES.h"
 
-const std::string Plaintext = "0111001101110100011000010110111001100100011000010111001001100100";
+const std::string Plaintext = "1010101111001101111001101010101111001101000100110010010100110110";
 
-const std::string checkEncryption = "1010001100101010111010001101011110111100011001110001100001111111";
+const std::string checkEncryption = "1001111000100110100111110101101011111010010011011011101101110000";
 
 int main()
 {
@@ -28,7 +28,7 @@ int main()
     std::string ciphertext = DES::algorithm(true, Plaintext, Key.keyRounds);
     std::cout << "Ciphertext: " << ciphertext;
     if (ciphertext != checkEncryption)
-        std::cout << "    |  ERROR: Encryption failed." << std::endl;
+        std::cout << "    |  ERROR: Encryption check failed, either changed key or plaintext." << std::endl;
     else
         std::cout << std::endl;
 
@@ -40,4 +40,5 @@ int main()
         std::cout << std::endl;
 
 }
+
 

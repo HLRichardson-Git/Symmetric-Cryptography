@@ -1,6 +1,6 @@
 /*
     By: Hunter Richardson
-    Date: 9/16/2023
+    Date: 10/1/2023
 
     For the purpose of education
 
@@ -8,7 +8,7 @@
     Key = "10a58869d74be5a374cf867cfb473859"
     IV = "00000000000000000000000000000000"
     Plaintext = "00000000000000000000000000000000"
-    Expected Ciphertext = "6d251e6944b051e04eaa6fb4dbf78465"
+    Expected Ciphertext = "6d251e6944b051e04eaa6fb4dbf78465b7a91c23c918915e2817064a220afe19"
 
     To use tested values uncomment masterkey and plaintext variables below
     and comment the respective above variables.

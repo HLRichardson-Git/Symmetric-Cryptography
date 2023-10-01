@@ -5,10 +5,10 @@
     For the purpose of education
 
     This implementation is tested using NIST standards:
-    Key = "10a58869d74be5a374cf867cfb473859"
+    Key = "e9f065d7c13573587f7875357dfbb16c53489f6a4bd0f7cd"
     IV = "00000000000000000000000000000000"
     Plaintext = "00000000000000000000000000000000"
-    Expected Ciphertext = "6d251e6944b051e04eaa6fb4dbf78465"
+    Expected Ciphertext = "0956259c9cd5cfd0181cca53380cde067cb1a4de3baa01e33330587c38191959"
 
     To use tested values uncomment masterkey and plaintext variables below
     and comment the respective above variables.
